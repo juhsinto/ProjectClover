@@ -1,0 +1,209 @@
+# depslib dependency file v1.0
+1396548629 source:c:\development\opencv-development\knn_modularized\main.cpp
+	<iostream>
+	"Modules/KNN_Trainer.h"
+	"Modules/KNN_Tester.h"
+
+1396018265 c:\development\opencv-development\knn_modularized\include\knn_trainer.h
+	"opencv2/opencv.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	"unistd.h"
+
+1387532997 c:\opencv\build\include\opencv2\opencv.hpp
+	"opencv2/core/core_c.h"
+	"opencv2/core/core.hpp"
+	"opencv2/flann/miniflann.hpp"
+	"opencv2/imgproc/imgproc_c.h"
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/photo/photo.hpp"
+	"opencv2/video/video.hpp"
+	"opencv2/features2d/features2d.hpp"
+	"opencv2/objdetect/objdetect.hpp"
+	"opencv2/calib3d/calib3d.hpp"
+	"opencv2/ml/ml.hpp"
+	"opencv2/highgui/highgui_c.h"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/contrib/contrib.hpp"
+
+1387532997 c:\opencv\build\include\opencv2\core\core_c.h
+	"opencv2/core/types_c.h"
+
+1387532997 c:\opencv\build\include\opencv2\core\types_c.h
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	<float.h>
+	<stdint.h>
+	<intrin.h>
+	<emmintrin.h>
+	<fastmath.h>
+	<math.h>
+	<ipl.h>
+	<ipl/ipl.h>
+	"tegra_round.hpp"
+	"emmintrin.h"
+
+1387532997 c:\opencv\build\include\opencv2\core\core.hpp
+	"opencv2/core/types_c.h"
+	"opencv2/core/version.hpp"
+	<limits.h>
+	<algorithm>
+	<cmath>
+	<cstddef>
+	<complex>
+	<map>
+	<new>
+	<string>
+	<vector>
+	<sstream>
+	"opencv2/core/operations.hpp"
+	"opencv2/core/mat.hpp"
+
+1387854018 c:\opencv\build\include\opencv2\core\version.hpp
+
+1387532997 c:\opencv\build\include\opencv2\core\operations.hpp
+	<string.h>
+	<limits.h>
+	<ext/atomicity.h>
+	<bits/atomicity.h>
+	<limits>
+
+1387532997 c:\opencv\build\include\opencv2\core\mat.hpp
+	<limits.h>
+	<string.h>
+
+1387532997 c:\opencv\build\include\opencv2\flann\miniflann.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/flann/defines.h"
+
+1387532997 c:\opencv\build\include\opencv2\flann\defines.h
+	"config.h"
+
+1387532997 c:\opencv\build\include\opencv2\flann\config.h
+
+1388026813 c:\opencv\build\include\opencv2\imgproc\imgproc_c.h
+	"opencv2/core/core_c.h"
+	"opencv2/imgproc/types_c.h"
+
+1387532998 c:\opencv\build\include\opencv2\imgproc\types_c.h
+	"opencv2/core/core_c.h"
+
+1387532998 c:\opencv\build\include\opencv2\imgproc\imgproc.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/imgproc/types_c.h"
+
+1387532998 c:\opencv\build\include\opencv2\photo\photo.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/photo/photo_c.h"
+
+1387532998 c:\opencv\build\include\opencv2\photo\photo_c.h
+	"opencv2/core/core_c.h"
+
+1387532998 c:\opencv\build\include\opencv2\video\video.hpp
+	"opencv2/video/tracking.hpp"
+	"opencv2/video/background_segm.hpp"
+
+1387532998 c:\opencv\build\include\opencv2\video\tracking.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+
+1387532998 c:\opencv\build\include\opencv2\video\background_segm.hpp
+	"opencv2/core/core.hpp"
+	<list>
+
+1387532997 c:\opencv\build\include\opencv2\features2d\features2d.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/flann/miniflann.hpp"
+	<limits>
+
+1387532998 c:\opencv\build\include\opencv2\objdetect\objdetect.hpp
+	"opencv2/core/core.hpp"
+	<map>
+	<deque>
+
+1387532997 c:\opencv\build\include\opencv2\calib3d\calib3d.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/features2d/features2d.hpp"
+
+1387532998 c:\opencv\build\include\opencv2\ml\ml.hpp
+	"opencv2/core/core.hpp"
+	<limits.h>
+	<map>
+	<string>
+	<iostream>
+
+1387602638 c:\opencv\build\include\opencv2\highgui\highgui_c.h
+	"opencv2/core/core_c.h"
+
+1387532997 c:\opencv\build\include\opencv2\highgui\highgui.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/highgui/highgui_c.h"
+
+1387532997 c:\opencv\build\include\opencv2\contrib\contrib.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/features2d/features2d.hpp"
+	"opencv2/objdetect/objdetect.hpp"
+	"opencv2/contrib/retina.hpp"
+	"opencv2/contrib/openfabmap.hpp"
+
+1387532997 c:\opencv\build\include\opencv2\contrib\retina.hpp
+	"opencv2/core/core.hpp"
+	<valarray>
+
+1387532997 c:\opencv\build\include\opencv2\contrib\openfabmap.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/features2d/features2d.hpp"
+	<vector>
+	<list>
+	<map>
+	<set>
+	<valarray>
+
+1396271497 c:\development\opencv-development\knn_modularized\include\knn_tester.h
+	"opencv2/opencv.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	"unistd.h"
+
+1396549223 c:\development\opencv-development\knn_modularized\include\modules\knn_trainer.h
+	"opencv2/opencv.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	"unistd.h"
+	<sys/stat.h>
+	"Exceptions/Generic/FilePathInvalidException.h"
+
+1396464344 c:\development\opencv-development\knn_modularized\include\exceptions\generic\filepathinvalidexception.h
+
+1396549252 c:\development\opencv-development\knn_modularized\include\modules\knn_tester.h
+	"opencv2/opencv.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	"unistd.h"
+	"Exceptions/Generic/FilePathInvalidException.h"
+
+1396550262 source:c:\development\project-unit-testing\trainer\main.cpp
+	<iostream>
+	"Modules/KNN_Trainer.h"
+	"Modules/KNN_Tester.h"
+
+1396549223 c:\development\project-unit-testing\trainer\include\modules\knn_trainer.h
+	"opencv2/opencv.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	"unistd.h"
+	<sys/stat.h>
+	"Exceptions/Generic/FilePathInvalidException.h"
+
+1396464344 c:\development\project-unit-testing\trainer\include\exceptions\generic\filepathinvalidexception.h
+
+1396549252 c:\development\project-unit-testing\trainer\include\modules\knn_tester.h
+	"opencv2/opencv.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	"unistd.h"
+	"Exceptions/Generic/FilePathInvalidException.h"
+

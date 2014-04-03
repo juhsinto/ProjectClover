@@ -1,0 +1,7 @@
+*.o 
+*.exe
+*.png
+/_InputImages
+/bin
+/obj
+

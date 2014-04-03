@@ -1,0 +1,5 @@
+*.png
+*.o
+*.exe
+/bin
+/obj
