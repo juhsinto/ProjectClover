@@ -430,3 +430,102 @@
 	"Recognizer/Recognizer.h"
 	<fstream>
 
+1396776371 source:c:\development\projectclover\iris\main.cpp
+	<iostream>
+	"Grid/GridMaker/GridMaker.h"
+	"Grid/GridFilter/GridFilter.h"
+	"Grid/GridProcessor/GridProcessor.h"
+	"QR/QRDecoder.h"
+	"Rotate/Rotater.h"
+	"Main/MainProcessor.h"
+
+1396770453 c:\development\projectclover\iris\include\grid\gridmaker\gridmaker.h
+	"opencv2/opencv.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	<sys/stat.h>
+	"Grid/GridMaker/LineFinder.h"
+	"Grid/GridMaker/SobelDerrivative.h"
+	"Exceptions/Generic/FilePathInvalidException.h"
+	"Exceptions/GridMaker/ImageEmptyException.h"
+	"Exceptions/GridMaker/ImageDimensionInvalidException.h"
+
+1395727554 c:\development\projectclover\iris\include\grid\gridmaker\linefinder.h
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+
+1395727555 c:\development\projectclover\iris\include\grid\gridmaker\sobelderrivative.h
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+
+1396464344 c:\development\projectclover\iris\include\exceptions\generic\filepathinvalidexception.h
+
+1396422402 c:\development\projectclover\iris\include\exceptions\gridmaker\imageemptyexception.h
+
+1396422549 c:\development\projectclover\iris\include\exceptions\gridmaker\imagedimensioninvalidexception.h
+
+1396440234 c:\development\projectclover\iris\include\grid\gridfilter\gridfilter.h
+	"opencv2/opencv.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	"Exceptions/GridFilter/ExceedsMaxValueException.h"
+	"Exceptions/GridFilter/ExceedsMinValueException.h"
+
+1396425734 c:\development\projectclover\iris\include\exceptions\gridfilter\exceedsmaxvalueexception.h
+
+1396424802 c:\development\projectclover\iris\include\exceptions\gridfilter\exceedsminvalueexception.h
+
+1396440517 c:\development\projectclover\iris\include\grid\gridprocessor\gridprocessor.h
+	"opencv2/opencv.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	"ProcessPoints.h"
+	"Exceptions/GridProcessor/EmptySetException.h"
+	"Exceptions/GridProcessor/GridNumberOfColsException.h"
+	"Exceptions/GridProcessor/GridNumberOfRowsException.h"
+
+1396676317 c:\development\projectclover\iris\include\grid\gridprocessor\processpoints.h
+	<iostream>
+	<set>
+	<stack>
+	<vector>
+	<algorithm>
+	<stdlib.h>
+
+1396428568 c:\development\projectclover\iris\include\exceptions\gridprocessor\emptysetexception.h
+
+1396431774 c:\development\projectclover\iris\include\exceptions\gridprocessor\gridnumberofcolsexception.h
+
+1396431801 c:\development\projectclover\iris\include\exceptions\gridprocessor\gridnumberofrowsexception.h
+
+1396470227 c:\development\projectclover\iris\include\qr\qrdecoder.h
+	<iostream>
+	"zbar.h"
+	"Exceptions/QRException/NoQRDataException.h"
+	"Exceptions/QRException/NoQRException.h"
+
+1396441646 c:\development\projectclover\iris\include\exceptions\qrexception\noqrdataexception.h
+
+1396441644 c:\development\projectclover\iris\include\exceptions\qrexception\noqrexception.h
+
+1396776410 c:\development\projectclover\iris\include\rotate\rotater.h
+	"Exceptions/Rotate/LargestContourInvalidException.h"
+	"Exceptions/Generic/FilePathInvalidException.h"
+
+1396448058 c:\development\projectclover\iris\include\exceptions\rotate\largestcontourinvalidexception.h
+
+1396679009 c:\development\projectclover\iris\include\main\mainprocessor.h
+	"Recognizer/Recognizer.h"
+	<fstream>
+
+1396471410 c:\development\projectclover\iris\include\recognizer\recognizer.h
+	"opencv2/opencv.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	"unistd.h"
+	<sys/stat.h>
+	"Exceptions/Generic/FilePathInvalidException.h"
+	"Exceptions/Recognizer/InvalidPredictionException.h"
+
+1396466188 c:\development\projectclover\iris\include\exceptions\recognizer\invalidpredictionexception.h
+

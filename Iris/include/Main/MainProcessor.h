@@ -66,7 +66,7 @@ MainProcessor::MainProcessor(ofstream& predictedOutputMatrix, cv::Mat& input_ima
             //std::cout << "The value of " << row_count << "-" << col_count << " is " <<  prediction << std::endl;
             predictedOutputMatrix << prediction << ",";
 
-            cv::rectangle( input_image_filled,  point1  ,	point2,
+            cv::rectangle( input_image_filled,  point1,	point2,
                            cv::Scalar( 0, 255, 0),
                            2,
                            8 );

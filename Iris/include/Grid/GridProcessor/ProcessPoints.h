@@ -7,6 +7,7 @@
 #include <stack>     // for stack container
 #include <vector>    // for vector container
 #include <algorithm> // for sort
+#include <stdlib.h>  // for abs /
 
 
 using namespace std;
@@ -90,7 +91,7 @@ void ProcessPoints::processStack() {
 			#endif
 
 			//criteria for closeness
-			if( (currentNumber-nextNumber) > stepDifference ) {
+			if( abs(currentNumber-nextNumber) > stepDifference ) {
 				processedPoints.push_back(currentNumber);
 
 				#if DEBUG

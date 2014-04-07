@@ -71,7 +71,6 @@ public:
 };
 
 /*******************************************************************/
-//-----------------TO REFACTOR-------------
 
 Mat KNN_Tester::getCroppedContour(Mat& segment) {
     vector< vector <Point> > contours; // Vector for storing contour
@@ -104,7 +103,6 @@ Mat KNN_Tester::getCroppedContour(Mat& segment) {
 
     return croppedContour;
 }
-//-----------------TO REFACTOR-------------
 
 
 /********************************************************************
