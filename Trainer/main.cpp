@@ -5,8 +5,8 @@
 int main() {
 
     try {
-        KNN_Trainer train_knn_obj("RAW_DATA/TRAIN/", 944, 2);
-        KNN_Tester test_knn_obj("RAW_DATA/TEST/", 944, 2);
+        KNN_Trainer train_knn_obj("RAW_DATA/TRAIN/", 2, 2);
+        KNN_Tester test_knn_obj("RAW_DATA/TEST/", 2, 2);
 
         cv::waitKey(0);
         return 0;

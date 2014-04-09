@@ -52,14 +52,14 @@ int main() {
 */
 
         // This is the path of the scanned image - ideally you want to loop from this point on - for all the scanned images
-        const string filename = "original-rot.jpg";
+        const string filename = "page2.png";
         cv::Mat input_image_filled;
         cv::Mat input_image;
 
         //Crop and Rotate the image
         Rotater rot(filename);
-        input_image_filled = rot.getRotatedMat(); imwrite("roatatedthing.png", input_image_filled);
-/*        input_image_filled.copyTo(input_image);
+        input_image_filled = rot.getRotatedMat();
+        input_image_filled.copyTo(input_image);
 
         QRDecoder qr(input_image);
         string qr_header = qr.getQRData();
@@ -97,7 +97,7 @@ int main() {
 
         cout << "----------------------------------------------------- " << endl
              << "DONE" << endl;
-   */ }
+    }
 
     // all exceptions should come here
 

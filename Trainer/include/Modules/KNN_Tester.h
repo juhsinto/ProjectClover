@@ -216,10 +216,11 @@ void KNN_Tester::test_classifier( string string_to_training_data) {
 
                 // Read each sample
                 sample = imread(filename, 0);
+
                 //threshold(sample,sample,200,255,THRESH_BINARY_INV);
                 cv::threshold(sample, sample, 0, 255, CV_THRESH_BINARY_INV | CV_THRESH_OTSU);
 
-                /* TODO TRY CATCH FOR -> IF NOT ABLE TO READ FILE THEN THROW EXCEPTION - HALT*/
+
                 // Get cropped contour
                 sample = getCroppedContour(sample);
 
