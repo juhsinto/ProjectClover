@@ -1,5 +1,5 @@
 # Project Clover
-Full ReadMe and documentation at bit.ly/jmprojectclover
+Full ReadMe and documentation at [bit.ly/jmprojectclover] (http://bit.ly/jmprojectclover)
 
 ## License
 
